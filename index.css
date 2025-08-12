@@ -1,0 +1,506 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jost:ital,wght@0,100..900;1,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Noto-Sans", sans-serif !important;
+}
+
+.all-anchor{
+    font-family: "Jost", sans-serif;
+} 
+
+.icon-links a {
+    color: #000;
+    font-size: 1.2rem;
+    margin-left: 1rem;
+}
+
+.nav-item {
+    font-family: "Jost", sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 100%;
+}
+
+
+.all-btn{
+    font-family: "Jost", sans-serif;
+    font-weight: 700;
+    font-size: 18.56px;
+    line-height: 100%;
+    border: 2px solid #000;
+    width: 237px;
+    height: 56px;
+}
+
+/* blog_2 css */
+
+#blog_header{
+    margin-top: 85px;
+    font-family: 'Noto sans', sans-serif !important;
+    font-weight: 700;
+    font-size: 50px;
+    margin-bottom: 60px;
+}
+
+#fist_blog_text{
+    font-family: 'noto sans', sans-serif;
+}
+
+#blog_first_img {
+        width: 94% !important;
+    }
+
+#second_blog_text p {
+    font-family: 'noto sans', sans-serif;
+}
+
+#second_blog_header p {
+     margin-top: 85px;
+    font-family: 'Noto sans', sans-serif !important;
+    font-weight: 700;
+    font-size: 50px;
+    margin-bottom: 60px;
+}
+
+/* main  blog section */
+
+.card-sec5{
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
+  border-radius: 8px;
+}
+
+.arrow-btn{
+    right: -15px;
+    padding: 16px 30px 16px 10px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 100%;
+}
+
+.sec5 h3{
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 120%;
+    color: #212121;
+}
+
+.sec5 p {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    color: #424242;
+}
+
+/* blog_1 css */
+
+.blog1_header{
+    margin-bottom: 90px;
+}
+
+/* mackbook_5 */
+
+/* SECTION 1 STARTS HERE */
+ .sec1{
+    margin-top: 100px;
+   }
+.sec1-p {
+    font-family: "Jost", sans-serif;
+    font-weight: 350;
+    font-size: 26px;
+    line-height: 100%;
+    color: #000;
+    word-spacing: 0px;
+}
+.sec1-h {
+    font-family: "Jost", sans-serif;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 100%;
+    color: #000;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+}
+
+
+/* mackbook_5 */
+
+/* sect 2 */
+
+/* sec2   */
+.sec h2 {
+    font-family: "Jost", sans-serif;
+    font-size: 36px;
+    line-height: 100%;
+    color: #212121;
+}
+.sec2 .card-title {
+    font-family: "Jost", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 100%;
+    color: #000;
+}
+.sec2 .card-text {
+    font-family: "Jost", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    color: #000;
+}
+
+/* SECTION 3  */
+.sec3 h2{
+    font-family: "Jost", sans-serif;
+    font-weight: 700;
+    font-size: 33px;
+    line-height: 100%;
+    color: #616161;
+}
+.sec3 h3{
+   color: #212121;
+    font-family: "Jost", sans-serif;
+    font-weight: 700;
+    font-size: 54px !important;
+    line-height: 100%;
+}
+.explore-p{
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 140%;
+    color: #424242;
+}
+/* SECTION 3   */
+
+/* SECTION 4 STARTS HERE  */
+/* rest for the sec4 typography  anchor tag */
+.sec4 h2{
+    font-family: "Jost", sans-serif;
+}
+.sec5 h2{
+    font-family: "Jost", sans-serif;
+}
+
+.sec4-tag{
+    text-decoration: none;
+    color: #333333;
+    font-family: "Jost", sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 100%;
+    margin-bottom: 2px;
+}
+
+
+.sec4-tag:focus{
+    color: #828282;
+    text-decoration: underline;
+}
+.sec4-tag:hover{
+    color: #828282 !important;
+    text-decoration: none;
+}
+ .sec4-a{
+    text-decoration: none;
+    color: #000000;
+    font-family: "Jost", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 100%;
+}
+.sec4-a:hover{
+    background-color: #D7000F;
+    color: #fff !important;
+}
+.sec4 .card-title{
+    font-family: 'Nato Sans', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 100%;
+    color: #212121;
+    text-transform: uppercase;
+}
+.sec4 .card-text{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 100%;
+    color: #19191D;
+}
+
+
+/* ABOUT US */
+
+.about_header{
+    font-family: "Jost", sans-serif;
+    font-weight: 800;
+}
+
+.about_first_sec h3{
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer-font {
+    font-family: "Jost", sans-serif;
+}
+.all-btn {
+    font-family: "Jost", sans-serif;
+    background-color: transparent;
+    font-weight: 700;
+    font-size: 18.56px;
+    line-height: 100%;
+    border: 2px solid #000;
+    width: 237px;
+    height: 56px;
+}
+.all-anchor {
+    font-family: "Jost", sans-serif;
+}
+.mail-span {
+    position: relative;
+    font-family: "Jost", sans-serif;
+}
+/* footer contact email  */
+.contact-mail {
+   width: 320px;
+    height: 56px;
+    padding: 10px;
+    border:0.7px  solid #FFFFFF;
+    border-radius: 5px;
+    font-size: 19px;
+    margin-bottom: 20px;
+    background-color: transparent;
+    outline: none;
+    color: #fff;
+}
+ ::placeholder {
+    color: #fff;
+    font-family: "jost", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+}
+/* styling for arrow icon in footer email, with button as arrow */
+.btn-arr {
+    position: absolute;
+    top: -21px;
+    right: 0px;
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+/* styling for the a-tag  with arrow icons   */
+.btn-tag {
+    position: relative;
+    width: 90px !important;
+    padding: 16px 40px 16px 10px;
+    color: black !important;
+    text-decoration: none;
+    border: 1px solid #424242;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 100%;
+}
+.email-btn {
+    position: absolute;
+    top: 24px;
+    right: 1px;
+    transform: translateY(-50%);
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+.contact-info {
+    font-family: "Nunito Sans", sans-serif;
+}
+
+hr {
+    border: 2px solid #fff;
+    width: 100%;
+}
+.copyright {
+    font-family: "Jost", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    color: #fff;
+}
+/* footer ends here  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* media quary for responsive */
+
+@media (max-width: 900px) {
+
+    .navbar-toggler-icon{
+        margin-top: 25px;
+    }
+
+    .nav-item {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 100%;
+    }
+
+    .navbar {
+        padding: 0.1rem !important;
+    }
+    body {
+        max-width:  100% !important;
+    }
+
+    /* login media */
+
+    .login_head{
+        font-weight: 800;
+    }
+
+    .log_first{
+        font-size: 13px;
+    }
+
+    .check_box_te{
+        gap: 10px !important;
+    }
+
+    .text-black {
+    --bs-text-opacity: 1;
+    color: rgba(var(--bs-black-rgb), var(--bs-text-opacity)) !important;
+    font-size: 13px;
+    }
+
+    [type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
+    cursor: pointer;
+    margin-bottom: 30px;
+    }
+
+    .login_btn{
+        margin-bottom: 30px !important;
+    }
+
+    .check_box_text{
+        font-size: 14px !important;
+        color: red !important;
+    }
+
+    .create_acc_text  {
+        margin-bottom: 50px !important;
+    }
+
+    .login_text{
+        margin-top: 30px !important;
+        font-weight: 800 !important;
+    }
+
+    /* blog_2 media */
+
+     #blog_header{
+        align-items: center;
+        margin-top: 97px;
+        max-width: 100%;
+        font-weight: 700;
+        font-size: 40px;
+        margin-bottom: 60px;
+    }
+
+    #fist_blog_text{
+        width: 26%;
+    }
+
+    #second_blog_text{
+        width: 26%;
+    }
+
+    #author_views{
+        margin-top: 9px;
+        width: 240px !important;
+    }
+
+    .card-sec5{
+        width: 100% !important;
+    }
+
+    .sec5 h3{
+        margin-top: 30px !important;
+    }
+
+    .sec5 p{
+        margin-bottom: 15px !important;
+    }
+
+    #second_blog_header p {
+    margin-top: 75px;
+    font-size: 35px;
+    }
+
+   .fa, .fa-brands, .fa-classic, .fa-regular, .fa-sharp, .fa-solid, .fab, .far, .fas {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: inline !important;
+    }
+
+    .fa-facebook, .fa-instagram, .fa-twitter, .fa-youtube {
+    border-radius: 100%;
+    background-color: #000;
+    padding: 10px 10px !important;
+    }
+
+    /* ABOUT US */
+
+    .about_header{
+        margin-top: 40px;
+    }
+
+
+
+
+  
+}
+
+
+@media (min-width: 991px) and (max-width: 1366px){
+    .card-sec5{
+        
+    }
+}
