@@ -236,16 +236,47 @@ body{
 
 /* ABOUT US */
 
-.about_header{
+.about_header {
     font-family: "Jost", sans-serif;
     font-weight: 800;
 }
 
 .about_first_sec h3{
-    
+       font-family: 'noto sans', sans-serif;
+       font-weight: 700;
+       font-size: 38px;
+       margin-top: 90px;
+       margin-bottom: 29px;
 }
 
+.card-body p {
+  font-size: 15px;
+  font-family: "Noto Sans", sans-serif;
+}
+.card-hover {
+  border: none #bd3a3a0a;
+  background-color: #FBFBFB;
+  cursor: pointer;
+  box-shadow: 2px 2px 2px 1px #FBFBFB;
+}
+.card-hover:hover {
+  background-color: #99363617;
+  cursor: pointer;
+}
+#record-years {
+  color: #D7000F;
+  font-weight: bold;
+  font-size: 26px;
+}
 
+.card_container{
+    margin-top: 20px !important;
+    border: 2px solid rgba(128, 128, 128, 0.199);
+    border-radius: 10px;
+    padding: 30px !important;
+    padding-bottom: 50px !important;
+
+}
 
 
 
@@ -492,6 +523,20 @@ hr {
         margin-top: 40px;
     }
 
+    .collectionb{
+        height: 43vh !important;
+    }
+/* 
+    .card-sec5-img{
+        width: 99% !important;
+    }
+
+    .card_container{
+        display: block !important;
+        width: 300% !important;
+    } */
+    
+
 
 
 
@@ -499,8 +544,167 @@ hr {
 }
 
 
-@media (min-width: 991px) and (max-width: 1366px){
-    .card-sec5{
-        
+
+
+
+@media (min-width: 901px) and (max-width: 1366px){
+
+    /* IPAD PRO */
+
+  .card-sec5 {
+        width: 100% !important;
+        max-width: 100% !important;
+        margin: 0 auto !important;
     }
+    .parent-selector {
+        display: block !important; 
+    }
+
+    .card_sec5_img{
+        width: 100%;
+    }
+
+    /* ABOUT US */
+
+    .collectionb{
+        height: 43vh !important;
+    }
+
+    .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    padding-right: 1px !important;
+    padding-left: 1px !important;
+   
+    }
+
+   div.cont_first{
+       margin-top: 1px !important;
+        padding-top: 1px !important;
+        margin-left: 1px !important;
+        padding-left: 1px !important;
+    } 
+
+     div.cont_first{
+       margin-top: 1px !important;
+        padding-top: 1px !important;
+        margin-left: 1px !important;
+        padding-left: 1px !important;
+    } 
+
+    .contact-mail{
+        width: 220px !important;
+    }
+
+    img.me-4.me-lg-5.author_views_img{
+        width: 25% !important;
+    }
+
+    #author_views{
+        width: 80% !important;
+    }
+
+    i.fa-regular.fa-heart.me-2.ms-lg-0.ms-5{
+        font-size: 45px !important;
+    }
+
+    i.fa-slab-press.fa-regular.fa-eye.ms-lg-3.me-2.me-lg-2{
+        font-size: 45px !important;
+    }
+
+    #author_views span {
+        font-size: 40px !important;
+    }
+
+    .wade_div span{
+        font-size: 30px !important;
+    }
+
+    h3.card-text.my-2.my-lg-4{
+        font-size: 40px !important;
+    }
+
+    p.card-text.mb-5.mb-lg-5{
+        font-size: 30px !important;
+    }
+
+    a.btn-tagl.me-lg-2.btn.btn-outline-dark.text-black.text-decoration-none.mb-5{
+        font-size: 40px !important;
+    }
+
+    i.fa-solid.fa-arrow-right.fa-l.p-2.arrow-btn{
+        font-size: 30px !important;
+    }
+
+   
+    
+
+}
+
+
+
+@media only screen and (min-width: 1024px) and (max-height: 1366px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+
+    /* from less than ipda pro up */
+    /* ABOUT US */
+
+    /* section 5 card */
+    .card-sec5-img{
+        width: 99% !important;
+    }
+
+    div.cont_first{
+       margin-top: 1px !important;
+        padding-top: 1px !important;
+        margin-left: 1px !important;
+        padding-left: 1px !important;
+    } 
+
+    .contact-mail{
+        width: 220px !important;
+    }
+
+    img.me-4.me-lg-5.author_views_img{
+        width: 25% !important;
+    }
+
+    #author_views{
+        width: 80% !important;
+    }
+
+    i.fa-regular.fa-heart.me-2.ms-lg-0.ms-5{
+        font-size: 45px !important;
+    }
+
+    i.fa-slab-press.fa-regular.fa-eye.ms-lg-3.me-2.me-lg-2{
+        font-size: 45px !important;
+    }
+
+    #author_views span {
+        font-size: 40px !important;
+    }
+
+    .wade_div span{
+        font-size: 30px !important;
+    }
+
+    h3.card-text.my-2.my-lg-4{
+        font-size: 40px !important;
+    }
+
+    p.card-text.mb-5.mb-lg-5{
+        font-size: 30px !important;
+    }
+
+    a.btn-tagl.me-lg-2.btn.btn-outline-dark.text-black.text-decoration-none.mb-5{
+        font-size: 40px !important;
+    }
+
+    i.fa-solid.fa-arrow-right.fa-l.p-2.arrow-btn{
+        font-size: 30px !important;
+    }
+
+
+    
+
+
+
 }
