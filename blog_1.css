@@ -84,11 +84,18 @@ hr {
 
     /* blog_1  media*/
 
-    .navbar-toggler-icon{
-        margin-top: 25px;
+    .navbar-toggler{
+        margin-top: 15px;
+        font-size: 25px !important;
     }
 
-     .nav-item {
+    .navbar-brand{
+        margin-top: 15px;
+
+    }
+
+
+    .nav-item {
     font-weight: 700;
     font-size: 20px;
     line-height: 100%;

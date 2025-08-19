@@ -242,11 +242,11 @@ body{
 }
 
 .about_first_sec h3{
-       font-family: 'noto sans', sans-serif;
-       font-weight: 700;
-       font-size: 38px;
-       margin-top: 90px;
-       margin-bottom: 29px;
+    font-family: 'noto sans', sans-serif;
+    font-weight: 700;
+    font-size: 38px;
+    margin-top: 90px;
+    margin-bottom: 29px;
 }
 
 .card-body p {
@@ -270,12 +270,27 @@ body{
 }
 
 .card_container{
+    box-shadow: rgba(60, 64, 67, 0.3) 1px 1px 2px 1px, rgba(60, 64, 67, 0.15) 1px 2px 6px 2px;
     margin-top: 20px !important;
-    border: 2px solid rgba(128, 128, 128, 0.199);
     border-radius: 10px;
     padding: 30px !important;
     padding-bottom: 50px !important;
 
+}
+
+
+/* CONTACT US */
+
+/* map section */
+.contact_first_head{
+    font-family: "Jost", sans-serif;
+    font-size: 40;
+    font-weight: 700;
+}
+
+.drop{
+    font-family: "Jost", sans-serif;
+    margin-top: 50px;
 }
 
 
@@ -404,8 +419,9 @@ hr {
 
 @media (max-width: 900px) {
 
-    .navbar-toggler-icon{
-        margin-top: 25px;
+    .navbar-toggler{
+        margin-top: 22px;
+        font-size: 25px !important;
     }
 
     .nav-item {
@@ -519,30 +535,126 @@ hr {
 
     /* ABOUT US */
 
-    .about_header{
-        margin-top: 40px;
+
+    h1.text-center.about_header.col-12.mt-sm-5.mt-sm-auto{
+        margin-bottom: 40px !important;
+    }
+   
+    .about_first_sec h3{
+        font-size: 28px !important;
+        font-weight: 700;
+    }
+
+    .about_first_sec p {
+        font-size: 15px;
     }
 
     .collectionb{
         height: 43vh !important;
     }
-/* 
-    .card-sec5-img{
-        width: 99% !important;
+
+    div.row.card_container {
+        display: block !important;
+        padding: 1px !important;
+        padding-top: 25px !important;
+        margin: 1px !important;
+        margin-top: 55px !important;
     }
 
-    .card_container{
-        display: block !important;
-        width: 300% !important;
-    } */
-    
+    img.card-img-top {
+        width: 700% !important;
+         height: auto;
+         display: block;
+    }
 
+    div.col-lg-2.col-md-4.col-sm-12{
+        margin-left: 1px !important;
+    } 
 
+    div.pt-4{
+        text-align: center !important;
+        width: 701% !important;
+        display: flex !important;
+        justify-content: space-between;
+    }
+
+    p.card-text{
+        width: 701% !important;
+    }
+
+    div.rated.d-flex.gap-3.pt-3{
+        width: 701% !important;
+    }
+
+    div.row.p-4.bg-light{
+        padding-inline: 1px !important;
+    }
+
+    /* CONTACT US */
+    .drop {
+        font-size: 38px !important;
+        text-align: center;
+    }
+ .contact {
+        margin-left: 120px !important;
+        font-size: 20px;
+    }
+
+    .about_form_input{
+        width: 100% !important;
+    }
+
+    .about_note_input{
+                width: 100% !important;
+                height: 80px !important;
+
+    }
+
+    .submit-btn  {
+        width: 99% !important;
+        align-items: center;
+        margin-left: 2px;
+   
+    }
 
 
   
 }
 
+
+@media (min-width: 820px) {
+
+    /* ABOUT US */
+
+    .about_first_sec img{
+        width: 100% !important;
+    }
+
+    .about_first_sec h3{
+        font-size: 28px !important;
+        text-align: center;
+        
+    }
+
+    .about_first_sec p {
+        font-size: 15px;
+        margin-bottom: 50px !important;
+        text-align: center;
+    }
+
+    img.card-img-top {
+        width: 569% !important;
+        height: auto;
+        display: block;
+    }
+
+    
+
+
+
+
+
+}
 
 
 
@@ -633,6 +745,8 @@ hr {
     i.fa-solid.fa-arrow-right.fa-l.p-2.arrow-btn{
         font-size: 30px !important;
     }
+
+   
 
    
     

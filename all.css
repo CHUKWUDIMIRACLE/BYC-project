@@ -1,0 +1,207 @@
+/* ALL SECTION STYLING START HERE */
+.about {
+  text-align: center;
+  margin-top: 60px;
+  font-weight: 700;
+  font-family: "Jost", sans-serif;
+  /* margin-top: 100px !important; */
+  /* margin-top: 40px !important;
+  margin-bottom: 210px !important; */
+}
+
+.img-fluid {
+  width: 669px;
+  height: 472px;
+
+}
+.about-byc {
+  margin-top: 120px !important;
+  /* padding-right: 30px; */
+}
+
+.about-byc h3 {
+  font-family: "Noto+Sans", sans-serif;
+  font-weight: bold;
+  color: #212121;
+  
+}
+
+.about-byc p {
+  font-family: "Noto+sans", sans-serif;
+  font-weight: 400;
+  font-size: 20px !important;
+  color: #212121;
+  margin-top: 40px !important;
+  
+}
+
+/* RECORDS STYLING */
+.records {
+  text-align: center;
+  margin-top: 150px !important;
+  font-family: "Jost", sans-serif;
+  font-weight: bold;
+}
+
+.record-cards {
+  margin-left: 20px !important;
+  padding: 150px !important;
+  /* margin-bottom: 100px !important; */
+}
+
+.card {
+  margin-top: 70px;
+}
+
+.card-body {
+  /* padding-left: 20px !important; */
+  /* margin-top: 40px !important; */
+   
+}
+.card-body p {
+  font-size: 10px;
+  font-weight: 400;
+  font-family: "Noto+Sans", sans-serif;
+  margin-top: 20px !important;
+}
+.card-hover {
+  border: none #bd3a3a0a;
+  background-color: #FBFBFB;
+  cursor: pointer;
+  box-shadow: 2px 2px 2px 1px #FBFBFB;
+  width: 300px !important;
+  height: 253px !important;
+}
+.card-hover:hover {
+  background-color: #99363617;
+  cursor: pointer;
+}
+#record-years {
+  color: #D7000F;
+  font-weight: bold;
+  font-size: 26px;
+  margin-top: 30px !important;
+}
+/* RECENTLY VIEWED STYLING */
+.about-sec3 {
+box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+ border-radius: 10px;
+}
+.about-sec3 .card-text {
+  font-size: 16px;
+  font-weight: 700;
+  color: #19191D;
+  font-family: "Jost", sans-serif;
+}
+
+.text-p {
+  font-weight: 450 !important;
+  font-size: 20px;
+}
+/* .about-sec3 .text-p{
+} */
+.about-sec3 .men-fash {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 143%;
+  letter-spacing: 1.8%;
+  color: #787885;
+}
+
+.about-sec3 .price {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 100%;
+  color: #000000DE;
+  font-family: "Noto Sans", sans-serif;
+}
+
+.about-sec3 .rating {
+  font-family: "Roboto ", sans-serif;
+  font-weight: 600;
+  font-size: 19px;
+  line-height: 23%;
+  color: #5E6366;
+}
+/* ABOUT US ENDS HERE  */
+
+
+
+
+@media screen and (max-width: 600px) {
+  .about {
+    margin-top: 50px !important;
+  }
+  .img-fluid {
+    width: 100%;
+    margin-top: 40px !important;
+  }
+  .about-byc {
+    margin-bottom: 30px;
+  }
+  .about-byc h3 {
+    font-weight: 600;
+    text-align: center;
+    font-size: 30px !important;
+  }
+  .about-byc p {
+    text-align: justify;
+  }
+  .records {
+    margin-bottom: 30px !important;
+    font-weight: 700;
+  }
+  .record-cards {
+    margin: 0px;
+  }
+
+  
+  .card {
+    margin-left: 25px;
+  }
+  .rate-figure {
+    margin-right: 12rem;
+ }
+
+ .about-byc p br {
+    display: none;
+  }
+
+  .about-byc p {
+    font-weight: 400;
+    font-size: 18px !important;
+    padding-left: 5px !important;
+  }
+}
+
+/* RESPONSIVENESS FOR IPAD MINI */
+@media screen and (max-width: 768px) {
+  .img-fluid {
+    width: 100%;
+ }
+  .about-byc {
+    margin-top: 100px;
+ }
+  .about-byc h3 {
+    font-weight: 600;
+ }
+}
+
+/* media quary for responsive */
+@media screen and (max-width: 600px) {
+    .navbar {
+        padding: 0.1rem !important;
+       /* max-width: 100% !important; */
+    }
+    body {
+        max-width:  100% !important;
+    }
+
+
+    /* media quary for about us */
+
+    .record-cards {
+      padding: 0px !important;
+      margin: 30px !important;
+    }
