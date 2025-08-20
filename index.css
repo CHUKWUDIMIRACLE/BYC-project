@@ -617,6 +617,17 @@ hr {
    
     }
 
+    button.wishlist_btn{
+        width: 320% !important;
+        margin-bottom: 20px !important;
+        margin-top: 20px;
+    }
+
+    button.buy_now_btn{
+        width: 320% !important;
+    }
+
+
 
   
 }
@@ -642,11 +653,7 @@ hr {
         text-align: center;
     }
 
-    img.card-img-top {
-        width: 569% !important;
-        height: auto;
-        display: block;
-    }
+    
 
     
 
@@ -746,6 +753,11 @@ hr {
         font-size: 30px !important;
     }
 
+    
+
+
+  
+
    
 
    
@@ -816,6 +828,7 @@ hr {
         font-size: 30px !important;
     }
 
+   
 
     
 
