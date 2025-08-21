@@ -4,9 +4,7 @@
   margin-top: 60px;
   font-weight: 700;
   font-family: "Jost", sans-serif;
-  /* margin-top: 100px !important; */
-  /* margin-top: 40px !important;
-  margin-bottom: 210px !important; */
+ 
 }
 
 .img-fluid {
@@ -16,7 +14,6 @@
 }
 .about-byc {
   margin-top: 120px !important;
-  /* padding-right: 30px; */
 }
 
 .about-byc h3 {
@@ -46,18 +43,12 @@
 .record-cards {
   margin-left: 20px !important;
   padding: 150px !important;
-  /* margin-bottom: 100px !important; */
 }
 
 .card {
   margin-top: 70px;
 }
 
-.card-body {
-  /* padding-left: 20px !important; */
-  /* margin-top: 40px !important; */
-   
-}
 .card-body p {
   font-size: 10px;
   font-weight: 400;
@@ -188,20 +179,3 @@ box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2p
  }
 }
 
-/* media quary for responsive */
-@media screen and (max-width: 600px) {
-    .navbar {
-        padding: 0.1rem !important;
-       /* max-width: 100% !important; */
-    }
-    body {
-        max-width:  100% !important;
-    }
-
-
-    /* media quary for about us */
-
-    .record-cards {
-      padding: 0px !important;
-      margin: 30px !important;
-    }
