@@ -307,6 +307,11 @@ ul.pagination.all_product_nav.justify-content-center{
     margin-top: 250px;
 }
 
+/* WISHLIST */
+#wishlist_second_card{
+    margin-top: 125px !important;
+}
+
 
 
 
@@ -660,6 +665,32 @@ hr {
     margin-top: 50px;
     }
 
+    img, svg {
+    width: 100%;
+    vertical-align: middle;
+    }
+
+    .men_wish{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    /* WISHLIST */
+
+    #wishlist_second_card{
+    margin-top: 20px !important;
+    }
+
+    #wishlist_star{
+        margin-bottom: 20px;
+    }
+
+    #wishlist_price{
+        margin-bottom: 2px !important;
+
+    }
+
+
    
 
    
@@ -754,9 +785,7 @@ hr {
         padding-left: 1px !important;
     } 
 
-    .contact-mail{
-        width: 220px !important;
-    }
+    
 
     img.me-4.me-lg-5.author_views_img{
         width: 25% !important;
