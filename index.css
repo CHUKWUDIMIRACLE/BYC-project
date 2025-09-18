@@ -307,10 +307,157 @@ ul.pagination.all_product_nav.justify-content-center{
     margin-top: 250px;
 }
 
+.card_about {
+  border: none;
+  box-shadow: 0 0px 1px rgba(0,1,1,1);
+  transition: transform 0.2s ease-in-out;
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+}
+
+.main_card_all{
+    padding-inline: 1px;
+}
+
+ div.col-lg-2.col-md-4.col-sm-12.all_products{
+        width: 20%;
+    }
+
+    img.img-fluid.all{
+        width: 100%;
+    }
+
+
+    /* MACKBOOK 2 */
+
+    .col-lg-2.col-md-4.col-sm-12.CAMSOLE{
+        width: 20%;
+    }
+
+    img.img-fluid.camosle{
+        width: 100%;
+    }
+
+    /* MACKBOOK 3 */
+
+    .col-lg-2.col-md-4.col-sm-12.Boxers{
+        width: 20%;
+    }
+
+    img.img-fluid.Boxers{
+        width: 100%;
+    }
+
+
 /* WISHLIST */
 #wishlist_second_card{
     margin-top: 125px !important;
 }
+
+/* CHECKOUT */
+
+.checkout_header_2{
+    gap: 900px;
+}
+
+.place_btn{
+    width: 589px !important;
+    margin-top: 60px;
+}
+
+/* CART 1 */
+   
+.cart1_wishlist{
+    width: 300px;
+}
+
+.wish_list_btn{
+    width: 470px;
+    margin-top: 20px;
+}
+
+div.row.g-4.cart_sec1{
+   border: 2px solid rgba(128, 128, 128, 0.329);
+   border-radius:  10px ;
+   padding-bottom: 70px;
+}
+
+.product_description{
+    border: 2px solid rgba(128, 128, 128, 0.329);
+   border-radius:  10px ;
+   padding-bottom: 70px;
+   margin-top: 70px;
+}
+
+h3.fw-bold.ps-lg-4{
+    margin-top: 25px;
+    margin-left: 30px;
+}
+
+hr.cart_line{
+    width: 95%;
+     margin-left: 50px;
+}
+
+hr.cart_product_review{
+    width: 95%;
+     margin-left: 50px;
+}
+
+.product_description_cont{
+    width: 95%;
+    margin-left: 49px;
+}
+
+.cart1_customer_review{
+    border: 2px solid rgba(128, 128, 128, 0.329);
+   border-radius:  10px ;
+   padding-bottom: 70px;
+   margin-top: 70px;
+}
+
+div.cart1_rating{
+      gap: 78px;
+ }
+
+ /* CART 2 */
+
+ .cart2_first_section{
+    border: 2px solid rgba(128, 128, 128, 0.329);
+   border-radius:  10px ;
+   padding-bottom: 70px;
+   margin-top: 70px;
+ }
+
+  .size-option {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+  }
+  .size-option:hover {
+    border: 2px solid #BD3A3A;
+    font-weight: 600;
+  }
+
+  /* Colours */
+  .color-option {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+    display: inline-block;
+  }
+  .color-option:hover {
+    transform: scale(1.2);
+  }
+   
 
 
 
@@ -559,7 +706,6 @@ hr {
 
     /* ABOUT US */
 
-
     h1.text-center.about_header.col-12.mt-sm-5.mt-sm-auto{
         margin-bottom: 40px !important;
     }
@@ -567,6 +713,7 @@ hr {
     .about_first_sec h3{
         font-size: 28px !important;
         font-weight: 700;
+        text-align: center;
     }
 
     .about_first_sec p {
@@ -610,6 +757,53 @@ hr {
         padding-inline: 1px !important;
     }
 
+    /* ALL PRODUCT */
+    .card_about {
+    border: none;
+      box-shadow: 0 0px 1px rgba(0,1,1,0);
+     transition: transform 0.2s ease-in-out;
+     margin-bottom: 15px;
+     padding-bottom: 15px;
+     /* padding-inline: 150px ; */
+    }
+
+    .pt-4-all-product{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 15px;
+    }
+
+     div.col-lg-2.col-md-4.col-sm-12.all_products{
+        width: 100%;
+    }
+
+    img.img-fluid.all{
+        width: 100%;
+    }
+
+    /* MACKBOOK 2 */
+    .col-lg-2.col-md-4.col-sm-12.CAMSOLE{
+        width: 100%;
+    }
+
+    .pt-4-camosle{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 15px;
+    }
+
+    /* MACKBOOK 3 */
+
+    .col-lg-2.col-md-4.col-sm-12.Boxers{
+        width: 100%;
+    }
+
+    .pt-4-Boxers{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 15px;
+    }
+
     /* CONTACT US */
     .drop {
         font-size: 38px !important;
@@ -638,13 +832,11 @@ hr {
     }
 
     button.wishlist_btn{
-        width: 330% !important;
         margin-bottom: 20px !important;
         margin-top: 20px;
     }
 
     button.buy_now_btn{
-        width: 330% !important;
         /* align-items: center !important; */
         
     }
@@ -677,6 +869,14 @@ hr {
 
     /* WISHLIST */
 
+    .navbar-toggler.wishlsit{
+        background-color: white;
+    }
+
+    .mb-5.wishlist_header{
+        margin-top: 45px;
+    }
+
     #wishlist_second_card{
     margin-top: 20px !important;
     }
@@ -689,6 +889,126 @@ hr {
         margin-bottom: 2px !important;
 
     }
+
+   
+  
+
+
+    /* CART 1 */
+
+    .quantity_num{
+        position:relative; top:-13px;
+
+    }
+
+    img.img-fluid.rounded.mb-3{
+        margin-top: 30px;
+    }
+
+    hr.cart_line{
+        width: 90%;
+         margin-left: 20px;
+    }
+
+    .product_description_cont{
+    width: 100%;
+    margin-left: 1px;
+    }
+
+    div.cart1_rating{
+      gap: 20px;
+    }
+
+    p.cart1_product_rationg.fs-5.mt-5.ps-lg-5{
+        padding-left: 20px;
+        font-weight: 500;
+    }
+
+    div.cart1_rating.ps-lg-5.mt-lg-4{
+        /* align-items: center; */
+        width: 90%;
+        margin-left: 20px;
+    }
+
+    div.d-flex.justify-content-between.fs-5.mt-5.ps-lg-5{
+        display: block !important;
+        margin-left: 20px;
+    }
+
+    hr.cart_product_review{
+        display: none;
+    }
+
+    div.product_review_good{
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+
+    div.product_review{
+         margin-top: 20px;
+        margin-left: 20px;
+    }
+
+    div.product_review_star{
+        display: block !important;
+    }
+
+    /* CART 2 */
+
+    .cart2_first_section{
+        border: none;
+    }
+
+    button.btn.btn-outline-danger.fw-bolder.fs-6.btn-sm.mb-2.mb-md-0.me-md-2.w-100.w-md-auto{
+        padding-block: 10px;
+    }
+
+    button.btn.fw-semibold.fs-6.btn-danger.btn-sm.w-100.w-md-auto{
+        padding-block: 10px;
+    }
+
+   button.btn.py-2.btn-outline-danger.Continue_Shopping_btn.flex-fill{
+    margin-bottom: 2px;
+   }
+
+     /* CHECKOUT */
+
+     .checkout_line{
+        display: none;
+     }
+
+     h4.fw-bolder.SHIPPING{
+        margin-top: 85px;
+
+     }
+
+     img.img-fluid.ms-lg-5{
+        margin-top: 40px;
+     }
+
+     h4.fw-bolder.d-block.d-lg-none{
+        margin-top: 29px;
+     }
+
+     .place_btn{
+    width: 349px !important;
+    margin-top: 30px;
+    }
+
+    button.btn.btn-danger.px-3{
+        width: 100%;
+    }
+
+    img.img-fluid.top_img.rounded{
+        margin-top: 40px;
+    }
+
+
+   
+
+
+
+ 
 
 
    
@@ -733,6 +1053,13 @@ hr {
          height: auto;
          display: block;
     }  */
+
+    /* CHECKOUT */
+
+     /* .place_btn{
+    width: 359px !important;
+    margin-top: 60px;
+    } */
 
     
 
@@ -795,6 +1122,26 @@ hr {
         margin-top: 9px;
         width: 240px !important;
     }
+
+    /* CHECKOUT */
+
+    .checkout_header_2{
+    gap: 700px;
+    }
+
+    .place_btn{
+    width: 375px ;
+    margin-top: 60px;
+    }
+
+  
+
+   
+    
+
+    /* img.img-fluid.ms-lg-5{
+        margin-right: 1px !important;
+    } */
 
     /* i.fa-regular.fa-heart.me-2.ms-lg-0.ms-5{
         font-size: 45px ;
@@ -872,8 +1219,22 @@ hr {
         width: 100% !important;
     } 
 
-   
+    /* CHECKOUT */
 
+    .checkout_header_2{
+    gap: 700px;
+    }
+
+    img.img-fluid.ms-lg-5{
+        margin-left: 1px !important;
+    }
+
+    .place_btn{
+    width: 389px !important;
+    margin-top: 60px;
+    }
+
+   
   
 
    

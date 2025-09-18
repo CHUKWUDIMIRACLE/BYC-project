@@ -3,6 +3,20 @@
 .footer-font {
     font-family: "Jost", sans-serif;
 }
+
+.icon-links a {
+    color: #000;
+    font-size: 1.2rem;
+    margin-left: 1rem;
+}
+
+.nav-item {
+    font-family: "Jost", sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 100%;
+}
+
 .all-btn {
     font-family: "Jost", sans-serif;
     background-color: transparent;
