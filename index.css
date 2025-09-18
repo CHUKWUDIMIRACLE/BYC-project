@@ -418,18 +418,9 @@ hr.cart_product_review{
 
 div.cart1_rating{
       gap: 78px;
- }
+}
 
- /* CART 2 */
-
- .cart2_first_section{
-    border: 2px solid rgba(128, 128, 128, 0.329);
-   border-radius:  10px ;
-   padding-bottom: 70px;
-   margin-top: 70px;
- }
-
-  .size-option {
+ .size-option {
     width: 40px;
     height: 40px;
     line-height: 40px;
@@ -457,6 +448,18 @@ div.cart1_rating{
   .color-option:hover {
     transform: scale(1.2);
   }
+
+
+ /* CART 2 */
+
+ .cart2_first_section{
+    border: 2px solid rgba(128, 128, 128, 0.329);
+   border-radius:  10px ;
+   padding-bottom: 70px;
+   margin-top: 70px;
+ }
+
+ 
    
 
 

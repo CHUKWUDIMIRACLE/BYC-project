@@ -96,23 +96,56 @@
 
       <!-- Thumbnail Slider -->
 
-      <div id="multiCarousel" class=" carousel slide" data-bs-ride="carousel">
-        
+      <!-- Thumbnail Slider -->
+       
+      <div id="thumbCarousel" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
 
-        <div class="d-flex justify-content-center gap-2">
-        <img src="./images/Image (1).png" class="border rounded" 
-             style="width:70px; height:70px; object-fit:cover; cursor:pointer;">
-        <img src="./images/Frame 65.png" class="border rounded" 
-             style="width:70px; height:70px; object-fit:cover; cursor:pointer;">
-        <img src="./images/Image (1).png" class="border rounded" 
-             style="width:70px; height:70px; object-fit:cover; cursor:pointer;">
-        <img src="./images/Frame 65.png" class="border rounded" 
-             style="width:70px; height:70px; object-fit:cover; cursor:pointer;">
-      </div>
+          <!-- First row of thumbnails -->
+          <div class="carousel-item active">
+            <div class="d-flex justify-content-center gap-2">
+              <img src="./images/Image (1).png" class="border rounded"
+                  style="width:100px; height:100px; object-fit:cover; cursor:pointer;">
+              <img src="./images/Frame 65.png" class="border rounded"
+                  style="width:100px; height:100px; object-fit:cover; cursor:pointer;">
+              <img src="./images/Image (1).png" class="border rounded"
+                  style="width:100px; height:100px; object-fit:cover; cursor:pointer;">
+              <img src="./images/Frame 65.png" class="border rounded"
+                  style="width:100px; height:100px; object-fit:cover; cursor:pointer;">
+            </div>
+          </div>
+
+          <!-- Second row of thumbnails -->
+          <div class="carousel-item">
+            <div class="d-flex justify-content-center gap-2">
+              <img src="./images/Image (1).png" class="border rounded"
+                  style="width:100px; height:100px; object-fit:cover; cursor:pointer;">
+              <img src="./images/Frame 65.png" class="border rounded"
+                  style="width:100px; height:100px; object-fit:cover; cursor:pointer;">
+              <img src="./images/Image (1).png" class="border rounded"
+                  style="width:100px; height:100px; object-fit:cover; cursor:pointer;">
+              <img src="./images/Frame 65.png" class="border rounded"
+                  style="width:100px; height:100px; object-fit:cover; cursor:pointer;">
+            </div>
+          </div>
 
         </div>
+
+        <!-- Controls -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#thumbCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"
+                style="background-color:#BD3A3A; border-radius:50%;"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+
+        <button class="carousel-control-next" type="button" data-bs-target="#thumbCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"
+                style="background-color:#BD3A3A; border-radius:50%;"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
       </div>
+
+
 
      
     </div>
@@ -202,6 +235,9 @@
     </div>
   </div>
     </div>
+
+
+    
 
 
 
