@@ -1,0 +1,1249 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jost:ital,wght@0,100..900;1,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Noto-Sans", sans-serif !important;
+}
+
+.all-anchor{
+    font-family: "Jost", sans-serif;
+} 
+
+.icon-links a {
+    color: #000;
+    font-size: 1.2rem;
+    margin-left: 1rem;
+}
+
+.nav-item {
+    font-family: "Jost", sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 100%;
+}
+
+
+.all-btn{
+    font-family: "Jost", sans-serif;
+    font-weight: 700;
+    font-size: 18.56px;
+    line-height: 100%;
+    border: 2px solid #000;
+    width: 237px;
+    height: 56px;
+}
+
+/* blog_2 css */
+
+#blog_header{
+    margin-top: 85px;
+    font-family: 'Noto sans', sans-serif !important;
+    font-weight: 700;
+    font-size: 50px;
+    margin-bottom: 60px;
+}
+
+#fist_blog_text{
+    font-family: 'noto sans', sans-serif;
+}
+
+#blog_first_img {
+        width: 94% !important;
+    }
+
+#second_blog_text p {
+    font-family: 'noto sans', sans-serif;
+}
+
+#second_blog_header p {
+     margin-top: 85px;
+    font-family: 'Noto sans', sans-serif !important;
+    font-weight: 700;
+    font-size: 50px;
+    margin-bottom: 60px;
+}
+
+/* main  blog section */
+
+.card-sec5{
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
+  border-radius: 8px;
+}
+
+.arrow-btn{
+    right: -15px;
+    padding: 16px 30px 16px 10px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 100%;
+}
+
+.sec5 h3{
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 120%;
+    color: #212121;
+}
+
+.sec5 p {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    color: #424242;
+}
+
+/* mackbook_5 */
+
+/* SECTION 1 STARTS HERE */
+ .sec1{
+    margin-top: 100px;
+   }
+.sec1-p {
+    font-family: "Jost", sans-serif;
+    font-weight: 350;
+    font-size: 26px;
+    line-height: 100%;
+    color: #000;
+    word-spacing: 0px;
+}
+.sec1-h {
+    font-family: "Jost", sans-serif;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 100%;
+    color: #000;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+}
+
+
+/* mackbook_5 */
+
+/* sect 2 */
+
+/* sec2   */
+.sec h2 {
+    font-family: "Jost", sans-serif;
+    font-size: 36px;
+    line-height: 100%;
+    color: #212121;
+}
+.sec2 .card-title {
+    font-family: "Jost", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 100%;
+    color: #000;
+}
+.sec2 .card-text {
+    font-family: "Jost", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    color: #000;
+}
+
+/* SECTION 3  */
+.sec3 h2{
+    font-family: "Jost", sans-serif;
+    font-weight: 700;
+    font-size: 33px;
+    line-height: 100%;
+    color: #616161;
+}
+.sec3 h3{
+   color: #212121;
+    font-family: "Jost", sans-serif;
+    font-weight: 700;
+    font-size: 54px !important;
+    line-height: 100%;
+}
+.explore-p{
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 140%;
+    color: #424242;
+}
+
+.collectionb{
+    height: 96vh !important;
+}
+/* SECTION 3   */
+
+/* SECTION 4 STARTS HERE  */
+/* rest for the sec4 typography  anchor tag */
+.sec4 h2{
+    font-family: "Jost", sans-serif;
+}
+.sec5 h2{
+    font-family: "Jost", sans-serif;
+}
+
+.sec4-tag{
+    text-decoration: none;
+    color: #333333;
+    font-family: "Jost", sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 100%;
+    margin-bottom: 2px;
+}
+
+
+.sec4-tag:focus{
+    color: #828282;
+    text-decoration: underline;
+}
+.sec4-tag:hover{
+    color: #828282 !important;
+    text-decoration: none;
+}
+ .sec4-a{
+    text-decoration: none;
+    color: #000000;
+    font-family: "Jost", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 100%;
+}
+.sec4-a:hover{
+    background-color: #D7000F;
+    color: #fff !important;
+}
+.sec4 .card-title{
+    font-family: 'Nato Sans', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 100%;
+    color: #212121;
+    text-transform: uppercase;
+}
+.sec4 .card-text{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 100%;
+    color: #19191D;
+}
+
+
+/* ABOUT US */
+
+.about_header {
+    font-family: "Jost", sans-serif;
+    font-weight: 800;
+}
+
+.about_first_sec h3{
+    font-family: 'noto sans', sans-serif;
+    font-weight: 700;
+    font-size: 38px;
+    margin-top: 90px;
+    margin-bottom: 29px;
+}
+
+.card-body p {
+  font-size: 15px;
+  font-family: "Noto Sans", sans-serif;
+}
+.card-hover {
+  border: none #bd3a3a0a;
+  background-color: #FBFBFB;
+  cursor: pointer;
+  box-shadow: 2px 2px 2px 1px #FBFBFB;
+}
+.card-hover:hover {
+  background-color: #99363617;
+  cursor: pointer;
+}
+#record-years {
+  color: #D7000F;
+  font-weight: bold;
+  font-size: 26px;
+}
+
+.card_container{
+    box-shadow: rgba(60, 64, 67, 0.3) 1px 1px 2px 1px, rgba(60, 64, 67, 0.15) 1px 2px 6px 2px;
+    margin-top: 20px !important;
+    border-radius: 10px;
+    padding: 30px !important;
+    padding-bottom: 50px !important;
+
+}
+
+
+/* CONTACT US */
+
+/* map section */
+.contact_first_head{
+    font-family: "Jost", sans-serif;
+    font-size: 40;
+    font-weight: 700;
+}
+
+.drop{
+    font-family: "Jost", sans-serif;
+    margin-top: 50px;
+}
+
+
+/* MACKBOOK3 */
+
+.card_boxers{
+    box-shadow: rgba(60, 64, 67, 0.3) 1px 1px 1px 1px, rgba(60, 64, 67, 0.15) 1px 2px 6px 2px;
+    padding-block: 15px;
+    padding-inline: 5px;
+}
+
+
+/* ALL PRODUCTS */
+
+ul.pagination.all_product_nav.justify-content-center{
+    margin-top: 250px;
+}
+
+.card_about {
+  border: none;
+  box-shadow: 0 0px 1px rgba(0,1,1,1);
+  transition: transform 0.2s ease-in-out;
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+}
+
+.main_card_all{
+    padding-inline: 1px;
+}
+
+ div.col-lg-2.col-md-4.col-sm-12.all_products{
+        width: 20%;
+    }
+
+    img.img-fluid.all{
+        width: 100%;
+    }
+
+
+    /* MACKBOOK 2 */
+
+    .col-lg-2.col-md-4.col-sm-12.CAMSOLE{
+        width: 20%;
+    }
+
+    img.img-fluid.camosle{
+        width: 100%;
+    }
+
+    /* MACKBOOK 3 */
+
+    .col-lg-2.col-md-4.col-sm-12.Boxers{
+        width: 20%;
+    }
+
+    img.img-fluid.Boxers{
+        width: 100%;
+    }
+
+
+/* WISHLIST */
+#wishlist_second_card{
+    margin-top: 125px !important;
+}
+
+/* CHECKOUT */
+
+.checkout_header_2{
+    gap: 900px;
+}
+
+.place_btn{
+    width: 589px !important;
+    margin-top: 60px;
+}
+
+/* CART 1 */
+   
+.cart1_wishlist{
+    width: 300px;
+}
+
+.wish_list_btn{
+    width: 470px;
+    margin-top: 20px;
+}
+
+div.row.g-4.cart_sec1{
+   border: 2px solid rgba(128, 128, 128, 0.329);
+   border-radius:  10px ;
+   padding-bottom: 70px;
+}
+
+.product_description{
+    border: 2px solid rgba(128, 128, 128, 0.329);
+   border-radius:  10px ;
+   padding-bottom: 70px;
+   margin-top: 70px;
+}
+
+h3.fw-bold.ps-lg-4{
+    margin-top: 25px;
+    margin-left: 30px;
+}
+
+hr.cart_line{
+    width: 95%;
+     margin-left: 50px;
+}
+
+hr.cart_product_review{
+    width: 95%;
+     margin-left: 50px;
+}
+
+.product_description_cont{
+    width: 95%;
+    margin-left: 49px;
+}
+
+.cart1_customer_review{
+    border: 2px solid rgba(128, 128, 128, 0.329);
+   border-radius:  10px ;
+   padding-bottom: 70px;
+   margin-top: 70px;
+}
+
+div.cart1_rating{
+      gap: 78px;
+}
+
+ .size-option {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+  }
+  .size-option:hover {
+    border: 2px solid #BD3A3A;
+    font-weight: 600;
+  }
+
+  /* Colours */
+  .color-option {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+    display: inline-block;
+  }
+  .color-option:hover {
+    transform: scale(1.2);
+  }
+
+
+ /* CART 2 */
+
+ .cart2_first_section{
+    border: 2px solid rgba(128, 128, 128, 0.329);
+   border-radius:  10px ;
+   padding-bottom: 70px;
+   margin-top: 70px;
+ }
+
+ 
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer-font {
+    font-family: "Jost", sans-serif;
+}
+.all-btn {
+    font-family: "Jost", sans-serif;
+    background-color: transparent;
+    font-weight: 700;
+    font-size: 18.56px;
+    line-height: 100%;
+    border: 2px solid #000;
+    width: 237px;
+    height: 56px;
+}
+.all-anchor {
+    font-family: "Jost", sans-serif;
+}
+.mail-span {
+    position: relative;
+    font-family: "Jost", sans-serif;
+}
+/* footer contact email  */
+.contact-mail {
+   width: 320px;
+    height: 56px;
+    padding: 10px;
+    border:0.7px  solid #FFFFFF;
+    border-radius: 5px;
+    font-size: 19px;
+    margin-bottom: 20px;
+    background-color: transparent;
+    outline: none;
+    color: #fff;
+}
+ ::placeholder {
+    color: #fff;
+    font-family: "jost", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+}
+/* styling for arrow icon in footer email, with button as arrow */
+.btn-arr {
+    position: absolute;
+    top: -21px;
+    right: 0px;
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+/* styling for the a-tag  with arrow icons   */
+.btn-tag {
+    position: relative;
+    width: 90px !important;
+    padding: 16px 40px 16px 10px;
+    color: black !important;
+    text-decoration: none;
+    border: 1px solid #424242;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 100%;
+}
+.email-btn {
+    position: absolute;
+    top: 24px;
+    right: 1px;
+    transform: translateY(-50%);
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+.contact-info {
+    font-family: "Nunito Sans", sans-serif;
+}
+
+hr {
+    border: 2px solid #fff;
+    width: 100%;
+}
+.copyright {
+    font-family: "Jost", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    color: #fff;
+}
+/* footer ends here  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* media quary for responsive */
+
+@media (max-width: 600px) {
+
+    .navbar-toggler{
+        margin-top: 22px;
+        font-size: 25px !important;
+    }
+
+    .nav-item {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 100%;
+    }
+
+    .navbar {
+        padding: 0.1rem !important;
+    }
+    body {
+        max-width:  100% !important;
+    }
+
+    /* login media */
+
+    .login_head{
+        font-weight: 800;
+    }
+
+    .log_first{
+        font-size: 13px;
+    }
+
+    .check_box_te{
+        gap: 10px !important;
+    }
+
+    .text-black {
+    --bs-text-opacity: 1;
+    color: rgba(var(--bs-black-rgb), var(--bs-text-opacity)) !important;
+    font-size: 13px;
+    }
+
+    [type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
+    cursor: pointer;
+    margin-bottom: 30px;
+    }
+
+    .login_btn{
+        margin-bottom: 30px !important;
+    }
+
+    .check_box_text{
+        font-size: 14px !important;
+        color: red !important;
+    }
+
+    .create_acc_text  {
+        margin-bottom: 50px !important;
+    }
+
+    .login_text{
+        margin-top: 30px !important;
+        font-weight: 800 !important;
+    }
+
+    /* BACKBOOK 5 */
+    .collectionb{
+        height: 50vh ;
+    }
+
+
+    /* blog_2 media */
+
+     #blog_header{
+        align-items: center;
+        margin-top: 97px;
+        max-width: 100%;
+        font-weight: 700;
+        font-size: 40px;
+        margin-bottom: 60px;
+    }
+
+    #fist_blog_text{
+        width: 26%;
+    }
+
+    #second_blog_text{
+        width: 26%;
+    }
+
+    #author_views{
+        margin-top: 9px;
+        width: 240px !important;
+    }
+
+    .card-sec5{
+        width: 100% !important;
+    }
+
+    .sec5 h3{
+        margin-top: 30px !important;
+    }
+
+    .sec5 p{
+        margin-bottom: 15px !important;
+    }
+
+    #second_blog_header p {
+    margin-top: 75px;
+    font-size: 35px;
+    }
+
+   .fa, .fa-brands, .fa-classic, .fa-regular, .fa-sharp, .fa-solid, .fab, .far, .fas {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: inline !important;
+    }
+
+    .fa-facebook, .fa-instagram, .fa-twitter, .fa-youtube {
+    border-radius: 100%;
+    background-color: #000;
+    padding: 10px 10px !important;
+    }
+
+    /* ABOUT US */
+
+    h1.text-center.about_header.col-12.mt-sm-5.mt-sm-auto{
+        margin-bottom: 40px !important;
+    }
+   
+    .about_first_sec h3{
+        font-size: 28px !important;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    .about_first_sec p {
+        font-size: 15px;
+    }
+
+    div.row.card_container,.boxers_cont {
+        display: block !important;
+        padding: 1px !important;
+        padding-top: 25px !important;
+        margin: 1px !important;
+        margin-top: 55px !important;
+    }
+
+    img.card-img-top{
+         width: 700% !important;
+         height: auto;
+         display: block;
+    } 
+
+    div.col-lg-2.col-md-4.col-sm-12{
+        margin-left: 1px !important;
+    } 
+
+    div.pt-4{
+        text-align: center !important;
+        width: 701% !important;
+        display: flex !important;
+        justify-content: space-between;
+    }
+
+    p.card-text{
+        width: 701% !important;
+    }
+
+    div.rated.d-flex.gap-3.pt-3{
+        width: 701% !important;
+    }
+
+    div.row.p-4.bg-light{
+        padding-inline: 1px !important;
+    }
+
+    /* ALL PRODUCT */
+    .card_about {
+    border: none;
+      box-shadow: 0 0px 1px rgba(0,1,1,0);
+     transition: transform 0.2s ease-in-out;
+     margin-bottom: 15px;
+     padding-bottom: 15px;
+     /* padding-inline: 150px ; */
+    }
+
+    .pt-4-all-product{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 15px;
+    }
+
+     div.col-lg-2.col-md-4.col-sm-12.all_products{
+        width: 100%;
+    }
+
+    img.img-fluid.all{
+        width: 100%;
+    }
+
+    /* MACKBOOK 2 */
+    .col-lg-2.col-md-4.col-sm-12.CAMSOLE{
+        width: 100%;
+    }
+
+    .pt-4-camosle{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 15px;
+    }
+
+    /* MACKBOOK 3 */
+
+    .col-lg-2.col-md-4.col-sm-12.Boxers{
+        width: 100%;
+    }
+
+    .pt-4-Boxers{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 15px;
+    }
+
+    /* CONTACT US */
+    .drop {
+        font-size: 38px !important;
+        text-align: center;
+    }
+ .contact {
+        margin-left: 120px !important;
+        font-size: 20px;
+    }
+
+    .about_form_input{
+        width: 100% !important;
+    }
+
+    .about_note_input{
+                width: 100% !important;
+                height: 80px !important;
+
+    }
+
+    .submit-btn  {
+        width: 99% !important;
+        align-items: center;
+        margin-left: 2px;
+   
+    }
+
+    button.wishlist_btn{
+        margin-bottom: 20px !important;
+        margin-top: 20px;
+    }
+
+    button.buy_now_btn{
+        /* align-items: center !important; */
+        
+    }
+
+  div.btn-group{
+    margin-top: 20px !important;
+  }
+
+  button.btn.btn-toggle.active,button.btn.btn-toggle.inactive{
+    margin-bottom: 1px;
+  }
+
+  h4.pt-sm-5.mt-sm-5{
+    margin-top: 40px;
+  }
+
+  ul.pagination.all_product_nav.justify-content-center{
+    margin-top: 50px;
+    }
+
+    img, svg {
+    width: 100%;
+    vertical-align: middle;
+    }
+
+    .men_wish{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    /* WISHLIST */
+
+    .navbar-toggler.wishlsit{
+        background-color: white;
+    }
+
+    .mb-5.wishlist_header{
+        margin-top: 45px;
+    }
+
+    #wishlist_second_card{
+    margin-top: 20px !important;
+    }
+
+    #wishlist_star{
+        margin-bottom: 20px;
+    }
+
+    #wishlist_price{
+        margin-bottom: 2px !important;
+
+    }
+
+   
+  
+
+
+    /* CART 1 */
+
+    .quantity_num{
+        position:relative; top:-13px;
+
+    }
+
+    img.img-fluid.rounded.mb-3{
+        margin-top: 30px;
+    }
+
+    hr.cart_line{
+        width: 90%;
+         margin-left: 20px;
+    }
+
+    .product_description_cont{
+    width: 100%;
+    margin-left: 1px;
+    }
+
+    div.cart1_rating{
+      gap: 20px;
+    }
+
+    p.cart1_product_rationg.fs-5.mt-5.ps-lg-5{
+        padding-left: 20px;
+        font-weight: 500;
+    }
+
+    div.cart1_rating.ps-lg-5.mt-lg-4{
+        /* align-items: center; */
+        width: 90%;
+        margin-left: 20px;
+    }
+
+    div.d-flex.justify-content-between.fs-5.mt-5.ps-lg-5{
+        display: block !important;
+        margin-left: 20px;
+    }
+
+    hr.cart_product_review{
+        display: none;
+    }
+
+    div.product_review_good{
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+
+    div.product_review{
+         margin-top: 20px;
+        margin-left: 20px;
+    }
+
+    div.product_review_star{
+        display: block !important;
+    }
+
+    /* CART 2 */
+
+    .cart2_first_section{
+        border: none;
+    }
+
+    button.btn.btn-outline-danger.fw-bolder.fs-6.btn-sm.mb-2.mb-md-0.me-md-2.w-100.w-md-auto{
+        padding-block: 10px;
+    }
+
+    button.btn.fw-semibold.fs-6.btn-danger.btn-sm.w-100.w-md-auto{
+        padding-block: 10px;
+    }
+
+   button.btn.py-2.btn-outline-danger.Continue_Shopping_btn.flex-fill{
+    margin-bottom: 2px;
+   }
+
+     /* CHECKOUT */
+
+     .checkout_line{
+        display: none;
+     }
+
+     h4.fw-bolder.SHIPPING{
+        margin-top: 85px;
+
+     }
+
+     img.img-fluid.ms-lg-5{
+        margin-top: 40px;
+     }
+
+     h4.fw-bolder.d-block.d-lg-none{
+        margin-top: 29px;
+     }
+
+     .place_btn{
+    width: 349px !important;
+    margin-top: 30px;
+    }
+
+    button.btn.btn-danger.px-3{
+        width: 100%;
+    }
+
+    img.img-fluid.top_img.rounded{
+        margin-top: 40px;
+    }
+
+
+   
+
+
+
+ 
+
+
+   
+
+   
+
+   
+
+
+
+
+  
+}
+
+
+@media (min-width: 768px) {
+/* MEDIA FOR IPAD MINI */
+/*  */
+
+   
+   
+    /* ABOUT US */
+
+    .about_first_sec img{
+        width: 100% !important;
+    }
+
+    .about_first_sec h3{
+        font-size: 28px !important;
+        text-align: center;
+        
+    }
+
+    .about_first_sec p {
+        font-size: 15px;
+        margin-bottom: 50px !important;
+        text-align: center;
+    }
+
+    /* img.card-img-top {
+        width: 10% !important;
+         height: auto;
+         display: block;
+    }  */
+
+    /* CHECKOUT */
+
+     /* .place_btn{
+    width: 359px !important;
+    margin-top: 60px;
+    } */
+
+    
+
+    
+
+
+
+
+
+}
+
+
+
+
+@media (min-width: 820px){
+
+    /* IPAD AIR */
+
+  .card-sec5 {
+        max-width: 100% !important;
+        margin: 0 auto !important;
+    }
+    .parent-selector {
+        display: block !important; 
+    }
+
+    .card_sec5_img{
+        width: 100%;
+    }
+
+    /* ABOUT US */
+
+    .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    padding-right: 1px !important;
+    padding-left: 1px !important;
+   
+    }
+
+   div.cont_first{
+       margin-top: 1px !important;
+        padding-top: 1px !important;
+        margin-left: 1px !important;
+        padding-left: 1px !important;
+    } 
+
+     div.cont_first{
+       margin-top: 1px !important;
+        padding-top: 1px !important;
+        margin-left: 1px !important;
+        padding-left: 1px !important;
+    } 
+
+    
+
+    img.me-4.me-lg-5.author_views_img{
+        width: 25% !important;
+    }
+
+    #author_views{
+        margin-top: 9px;
+        width: 240px !important;
+    }
+
+    /* CHECKOUT */
+
+    .checkout_header_2{
+    gap: 700px;
+    }
+
+    .place_btn{
+    width: 375px ;
+    margin-top: 60px;
+    }
+
+  
+
+   
+    
+
+    /* img.img-fluid.ms-lg-5{
+        margin-right: 1px !important;
+    } */
+
+    /* i.fa-regular.fa-heart.me-2.ms-lg-0.ms-5{
+        font-size: 45px ;
+    }
+
+    i.fa-slab-press.fa-regular.fa-eye.ms-lg-3.me-2.me-lg-2{
+        font-size: 45px ;
+    }
+
+    #author_views span {
+        font-size: 40px ;
+    }
+
+    .wade_div span{
+        font-size: 30px ;
+    }
+
+    h3.card-text.my-2.my-lg-4{
+        font-size: 40px ;
+    }
+
+    p.card-text.mb-5.mb-lg-5{
+        font-size: 30px ;
+    }
+
+    a.btn-tagl.me-lg-2.btn.btn-outline-dark.text-black.text-decoration-none.mb-5{
+        font-size: 40px ;
+    }
+
+    i.fa-solid.fa-arrow-right.fa-l.p-2.arrow-btn{
+        font-size: 30px ;
+    } */
+
+    
+
+
+  
+
+   
+
+   
+    
+
+}
+
+
+
+@media only screen and (min-width: 1024px) and (max-height: 1366px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+
+    /* from less than ipda pro up */
+    /* ABOUT US */
+
+    /* section 5 card */
+    .card-sec5-img{
+        width: 99% important;
+    }
+
+    div.cont_first{
+       margin-top: 1px !important;
+        padding-top: 1px !important;
+        margin-left: 1px !important;
+        padding-left: 1px !important;
+    } 
+
+    .contact-mail{
+        width: 220px !important;
+    }
+
+    img.me-4.me-lg-5.author_views_img{
+        width: 25% !important;
+    }
+
+    div.card-sec5.mb-3.mb-lg-0.col-sm-12.col-md-12.col-lg-4{
+        margin: 0px 1px !important  ;
+        width: 100% !important;
+    } 
+
+    /* CHECKOUT */
+
+    .checkout_header_2{
+    gap: 700px;
+    }
+
+    img.img-fluid.ms-lg-5{
+        margin-left: 1px !important;
+    }
+
+    .place_btn{
+    width: 389px !important;
+    margin-top: 60px;
+    }
+
+   
+  
+
+   
+
+    
+
+
+
+}
